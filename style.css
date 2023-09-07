@@ -22,19 +22,21 @@ body * {
     width: 360px;
    /* height: 712px; */
     border-radius: 10px;
-    margin: 56px auto 0px;
-    padding: 0 24px 24px;
+    margin: 52px auto 0px;
+    padding: 0 24px 12px;
+    border: 2px solid white;
+    box-shadow: 0 0 14px rgb(255, 255, 255, 0.9);
 }
 
 #profile {
     text-align: center;
-    padding: 24px;
+    padding: 20px;
 }
 
 #profile img {
     width: 112px;
     border-radius: 100px;
-    border: 2px solid rgb(255, 255, 255) ;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 #profile p {
@@ -48,7 +50,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 24px 0;
+    padding: 20px 0;
 }
 
 ul li a{
@@ -71,8 +73,8 @@ ul li a{
 }
 
 ul li a:hover {
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255);
     color: black;
 }
 
@@ -80,7 +82,7 @@ ul li a:hover {
     display: flex;
     justify-content: center;
 
-    padding: 24px 0;
+    padding: 2px 0;
 
     font-size: 40px;
 }
