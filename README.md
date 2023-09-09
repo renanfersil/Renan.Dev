@@ -1,2 +1,3 @@
 # site-portfolio
-site portfolio com acesso aos meus projetos, redes sociais e contato.
+Site portfolio com acesso ao meu GitHub, LinkedIn, Instagram e Whatsapp.
+link online: https://renanfersil.github.io/site-portfolio/
