@@ -7,21 +7,22 @@
 :root {
     --text--color: white;
     --background--color: black;
+    --hover--color: rgb(0, 0, 0);
     --social--color: rgb(255, 255, 255, 0.2);
     --switch-img-url: url(./image/moon-outline.svg);
 }
 
 .light {
     --text--color: black;
-    --background--color: grey;
-    --social--color: rgb(255, 255, 255, 0.4);
+    --background--color: rgb(156, 155, 155, 0.6);
+    --hover--color: white;
+    --social--color: rgb(255, 255, 255, 0.9);
     --switch-img-url: url(./image/sunny-outline.svg);
 }
 
 body {
     display: flex;
     background: var(--background--color);
-    /*background-image: url("./image/cod.jpg");*/
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -37,10 +38,8 @@ body * {
    /* height: 712px; */
     border-radius: 10px;
     margin: 30px auto 0px;
-    padding: 0px 24px 12px;
+    padding: 0px 24px 4px;
     border: 2px solid var(--text--color) ;
-
-    
 }
 
 #container:hover {
@@ -49,7 +48,7 @@ body * {
 
 #profile {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 #profile img {
@@ -130,7 +129,7 @@ ul li a{
 ul li a:hover {
     background: var(--text--color);
     box-shadow: 0 0 14px var(--text--color);
-    color: var(--background--color);
+    color: var(--hover--color);
 }
 
 #social-links {
