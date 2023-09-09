@@ -7,7 +7,7 @@
 :root {
     --text--color: white;
     --background--color: black;
-    --hover--color: rgb(0, 0, 0);
+    --hover--color: black;
     --social--color: rgb(255, 255, 255, 0.2);
     --switch-img-url: url(./image/moon-outline.svg);
 }
@@ -82,11 +82,16 @@ body * {
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
+
+    animation: slide-back .4s;
+}
+
+#switch button:hover {
+    outline: 8px solid var(--social--color);
 }
 
 .light #switch button {
-    right: 0;
-    left: initial;
+    animation: slide-in 0.4s forwards;
 }
 
 #switch span {
@@ -158,4 +163,22 @@ footer {
     padding: 2px;
     text-align: center;
     font-size: 14px;
+}
+
+@keyframes slide-in {
+    from {
+        left: 0;
+    }
+    to {
+        left: 62%;
+    }
+}
+
+@keyframes slide-back {
+    from {
+        left: 50%;
+    }
+    to {
+        left: 0;
+    }
 }
