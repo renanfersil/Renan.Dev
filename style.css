@@ -127,7 +127,7 @@ ul li a{
 
 ul li a:hover {
     background: var(--text--color);
-    box-shadow: 0 0 14px var(--text--color);
+    box-shadow: 0 0 20px var(--text--color);
     color: var(--hover--color);
 }
 
