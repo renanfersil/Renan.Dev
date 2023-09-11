@@ -6,15 +6,15 @@
 
 :root {
     --text--color: white;
-    --background--color: black;
-    --hover--color: black;
+    --background--color: linear-gradient(90deg, rgb(0, 0, 0) 50%, rgb(4, 3, 75) 100%);
+     --hover--color: black;
     --social--color: rgb(255, 255, 255, 0.2);
     --switch-img-url: url(./image/moon-outline.svg);
 }
 
 .light {
     --text--color: black;
-    --background--color: rgb(156, 155, 155, 0.6);
+    --background--color: linear-gradient(90deg, rgb(150, 150, 150) 50%, rgb(110, 110, 110) 100%);
     --hover--color: white;
     --social--color: rgb(255, 255, 255, 0.9);
     --switch-img-url: url(./image/sunny-outline.svg);
@@ -25,7 +25,6 @@ body {
     background: var(--background--color);
     background-size: cover;
     background-position: top center;
-    background-repeat: no-repeat;
 }
 
 body * {
@@ -38,7 +37,7 @@ body * {
     border-radius: 10px;
     margin: 30px auto 0px;
     padding: 0px 24px 4px;
-    border: 2px solid var(--text--color) ;
+    border: 2px solid var(--text--color); 
 }
 
 #container:hover {
