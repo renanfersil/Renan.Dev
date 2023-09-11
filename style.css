@@ -6,7 +6,7 @@
 
 :root {
     --text--color: white;
-    --background--color: linear-gradient(90deg, rgb(0, 0, 0) 50%, rgb(4, 3, 75) 100%);
+    --background--color: linear-gradient(90deg, rgb(0, 0, 0) -90%, rgb(41, 41, 41) 100%);
      --hover--color: black;
     --social--color: rgb(255, 255, 255, 0.2);
     --switch-img-url: url(./image/moon-outline.svg);
@@ -14,7 +14,7 @@
 
 .light {
     --text--color: black;
-    --background--color: linear-gradient(90deg, rgb(150, 150, 150) 50%, rgb(110, 110, 110) 100%);
+    --background--color: linear-gradient(90deg, rgb(194, 194, 194) -60%, rgb(110, 110, 110) 100%);
     --hover--color: white;
     --social--color: rgb(255, 255, 255, 0.9);
     --switch-img-url: url(./image/sunny-outline.svg);
