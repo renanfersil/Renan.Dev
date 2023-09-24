@@ -9,7 +9,7 @@
     --background--color: linear-gradient(90deg, rgb(0, 0, 0) -90%, rgb(41, 41, 41) 100%);
      --hover--color: black;
     --social--color: rgb(255, 255, 255, 0.2);
-    --switch-img-url: url(./image/moon-outline.svg);
+    --switch-img-url: url(../image/sunny-outline.svg);
 }
 
 .light {
@@ -17,7 +17,7 @@
     --background--color: linear-gradient(90deg, rgb(194, 194, 194) -60%, rgb(110, 110, 110) 100%);
     --hover--color: white;
     --social--color: rgba(255, 255, 255, 0.315);
-    --switch-img-url: url(./image/sunny-outline.svg);
+    --switch-img-url: url(../image/moon-outline.svg);
 }
 
 body {
@@ -36,7 +36,7 @@ body * {
 #container {
     width: 360px;
     border-radius: 10px;
-    margin: auto;
+    margin: 100px auto;
     padding: 0px 24px 4px;
     border: 2px solid var(--text--color); 
 }
@@ -67,7 +67,7 @@ body * {
     position: relative;
     width: 64px;
 
-    margin: 4px auto;
+    margin: 20px auto;
 }
 
 #switch button {
