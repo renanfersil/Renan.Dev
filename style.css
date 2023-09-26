@@ -37,7 +37,7 @@ body * {
     width: 360px;
     border-radius: 10px;
     margin: auto;
-    padding: 0px 24px 4px;
+    padding: 0px 24px;
     border: 2px solid var(--text--color); 
 }
 
@@ -55,6 +55,10 @@ body * {
     border-radius: 100px;
     border: 2px solid var(--text--color);
     zoom: 110%;
+}
+
+#profile img:hover {
+    box-shadow: 0 0 8px;
 }
 
 #profile p {

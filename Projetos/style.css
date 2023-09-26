@@ -36,8 +36,8 @@ body * {
 #container {
     width: 360px;
     border-radius: 10px;
-    margin: 100px auto;
-    padding: 0px 24px 4px;
+    margin: auto;
+    padding: 0px 24px;
     border: 2px solid var(--text--color); 
 }
 
@@ -45,22 +45,11 @@ body * {
     box-shadow: 0 0 10px var(--text--color);
 }
 
-#profile {
+#titulo {
     text-align: center;
     padding: 10px;
-}
-
-#profile img {
-    width: 112px;
-    border-radius: 100px;
-    border: 2px solid var(--text--color);
-    zoom: 110%;
-}
-
-#profile p {
-    font-weight:  500;
-    line-height: 24px;
-    margin-top: 2px;
+    text-decoration: none;
+    font-weight: 800;
 }
 
 #switch {
