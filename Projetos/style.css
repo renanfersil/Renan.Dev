@@ -38,7 +38,7 @@ body * {
     border-radius: 10px;
     margin: auto;
     padding: 0px 24px;
-    border: 2px solid var(--text--color); 
+    border: 1px solid var(--text--color); 
 }
 
 #container:hover {
@@ -50,13 +50,13 @@ body * {
     padding: 10px;
     text-decoration: none;
     font-weight: 800;
+    font-size: 30px;
 }
 
 #switch {
     position: relative;
     width: 64px;
-
-    margin: 20px auto;
+    margin: 2px auto;
 }
 
 #switch button {
@@ -98,8 +98,8 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding: 20px 0;
+    gap: 8px;
+    padding: 10px 0;
 }
 
 ul li a{
@@ -151,7 +151,7 @@ ul li a:hover {
 }
 
 footer {
-    padding: 2px;
+    padding: 6px;
     text-align: center;
     font-size: 14px;
 }
